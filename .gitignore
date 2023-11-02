@@ -130,7 +130,7 @@ dmypy.json
 .pyre/
 
 __pycache__/
-!outputs/
 outputs/*
-!wandb/
+!outputs/.keep
 wandb/*
+!wandb/.keep
