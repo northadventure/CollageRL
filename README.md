@@ -5,8 +5,7 @@
 An official implementation of the paper [Neural Collage Transfer: Artistic Reconstruction via Material Manipulation](https://openaccess.thecvf.com/content/ICCV2023/html/Lee_Neural_Collage_Transfer_Artistic_Reconstruction_via_Material_Manipulation_ICCV_2023_paper.html).
 
 ### Examples
-<img width=512 src="resource/actress.gif">
-<img width=512 src="resource/colorface.gif">
+<img width=500 src="resource/actress.gif"><img width=500 src="resource/colorface.gif">
 
 ## Requirements
 - Python 3.8.5 (Conda)
