@@ -147,7 +147,7 @@ result_dir = f'{goal_name}{args.goal_resolution}{args.goal_resolution_fit}_'
 for scale in args.scale_order:
     result_dir += f'{scale}'
     if int(scale) != len(args.scale_order)-1:
-        result_dir += '->'
+        result_dir += '__'
 result_dir += f'_{source_name}x{args.source_resolution_ratio}_sensitivity{sensitivity}_cycle{args.num_cycles}_fixt{args.fixed_t}_mcskip{args.min_source_complexity}'
 if args.disallow_duplicate:
     result_dir += '_nodup'
